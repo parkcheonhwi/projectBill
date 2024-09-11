@@ -15,6 +15,6 @@ public class HomeController {
         model.addAttribute("message", "Welcome to the Home Page!");
 
         // JSP 파일의 논리적 이름을 반환합니다.
-        return "hello"; // /WEB-INF/views/error.jsp로 매핑됩니다.
+        return "home"; // /WEB-INF/views/error.jsp로 매핑됩니다.
     }
 }
